@@ -36,7 +36,10 @@ class ViewController: UIViewController {
     
     @objc func clockTwoGo(){
         timeTwo -= 1
-        clockTwo.text = String(timeTwo)
+        let minutes = Int(timeTwo) / 60 % 60
+        let seconds = Int(timeTwo) % 60
+        
+        clockTwo.text = String(format:"%02i:%02i", minutes, seconds)
         
         if timeTwo == 0{
             timerTwo.invalidate()
@@ -62,7 +65,12 @@ class ViewController: UIViewController {
     
     @objc func clockOneGo(){
         timeOne -= 1
-        clockOne.text = String(timeOne)
+        
+        
+        let minutes = Int(timeOne) / 60 % 60
+        let seconds = Int(timeOne) % 60
+        
+        clockOne.text = String(format:"%02i:%02i", minutes, seconds)
         
         if timeOne == 0{
             timerOne.invalidate()

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="chessTimer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zsD-aR-lbi">
@@ -59,7 +59,7 @@
             <objects>
                 <viewController id="eKf-4E-I0n" customClass="ViewController" customModule="chessTimer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nbt-Xi-ZBR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device must be horizontal in order to play" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rV-op-VAp">
@@ -115,7 +115,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPY-5g-QR0">
-                                <rect key="frame" x="401" y="48" width="103" height="30"/>
+                                <rect key="frame" x="362.5" y="48" width="64" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Reset"/>
                                 <connections>
@@ -158,24 +158,24 @@
                             <mask key="constraints">
                                 <exclude reference="7VP-B8-S7l"/>
                                 <exclude reference="EtU-l1-4Rc"/>
-                                <exclude reference="3sW-Pb-QZ1"/>
-                                <exclude reference="QqK-tO-15H"/>
-                                <exclude reference="PNU-26-r85"/>
-                                <exclude reference="Taz-Nh-Z2k"/>
-                                <exclude reference="6Jo-bl-nL5"/>
-                                <exclude reference="Ap4-pl-cRc"/>
-                                <exclude reference="Ldt-si-34K"/>
-                                <exclude reference="k5f-VS-6h3"/>
                                 <exclude reference="F98-Xn-KOA"/>
                                 <exclude reference="Zje-op-YYx"/>
                                 <exclude reference="a5P-sl-xoH"/>
                                 <exclude reference="iiC-pY-yDR"/>
                                 <exclude reference="Hdm-dA-i2H"/>
                                 <exclude reference="NWg-Ut-6Ru"/>
+                                <exclude reference="3sW-Pb-QZ1"/>
+                                <exclude reference="QqK-tO-15H"/>
+                                <exclude reference="PNU-26-r85"/>
+                                <exclude reference="Taz-Nh-Z2k"/>
                                 <exclude reference="69Y-Jl-sfU"/>
                                 <exclude reference="79Y-od-csu"/>
                                 <exclude reference="fw7-Hc-VcO"/>
                                 <exclude reference="gvN-WW-bQp"/>
+                                <exclude reference="6Jo-bl-nL5"/>
+                                <exclude reference="Ap4-pl-cRc"/>
+                                <exclude reference="Ldt-si-34K"/>
+                                <exclude reference="k5f-VS-6h3"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -185,8 +185,6 @@
                                 <include reference="bPY-5g-QR0"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Ap4-pl-cRc"/>
-                                <include reference="Ldt-si-34K"/>
                                 <include reference="F98-Xn-KOA"/>
                                 <include reference="Zje-op-YYx"/>
                                 <include reference="a5P-sl-xoH"/>
@@ -197,6 +195,8 @@
                                 <include reference="79Y-od-csu"/>
                                 <include reference="fw7-Hc-VcO"/>
                                 <include reference="gvN-WW-bQp"/>
+                                <include reference="Ap4-pl-cRc"/>
+                                <include reference="Ldt-si-34K"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
